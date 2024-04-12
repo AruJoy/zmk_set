@@ -9,34 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <35 24>;
-            layers = <0>;
-        };
-
-        layer_test {
-            bindings = <&tog 0>;
-            key-positions = <12 23>;
-        };
-
-        test1 {
-            bindings = <&function>;
-            key-positions = <31 16 27>;
-        };
-    };
-
-    macros {
-        function: function {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp TEST>;
-            label = "FUNCTION";
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
