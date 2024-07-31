@@ -11,6 +11,20 @@
 #include "mouse.dtsi"
 #define AS(keycode) &as LS(keycode) keycode  
 
+#define BASE 0
+#define NAV 1
+#define MUS 2
+#define NUM 3
+#define FUN 4
+#define MBASE 5
+#define MNAV 6
+#define MMUS 7
+#define MNUM 8
+#define MFUN 9
+
+#define XXX &none
+#define TRN &trans
+
 / {
     combos { compatible = "zmk,combos"; };
 
