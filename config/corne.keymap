@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp ESC  &trans  &trans    &trans        &trans          &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END          &trans  &kp DELETE
-&kp LCTRL  &trans   &trans  &trans    &trans        &trans          &kp PAGE_DOWN  &kp LEFT_ARROW  &kp UP        &kp RIGHT_ARROW  &trans  &kp ENTER
-&kp LSHFT  &trans   &trans  &trans    &bt BT_CLR    &bt BT_SEL 0    &trans         &trans          &trans        &trans           &trans  &kp RIGHT_SHIFT
-                            &kp LGUI  &kp LEFT_ALT  &kp SPACE       &trans         &trans          &trans
+&kp TAB    &kp ESC    &kp LC(PAGE_UP)  &kp LC(T)  &kp LC(PAGE_DOWN)  &kp LC(W)    &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END          &trans  &kp DELETE
+&kp LCTRL  &kp LC(A)  &kp LC(S)        &kp LC(D)  &kp LC(F)          &kp LC(G)    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp UP        &kp RIGHT_ARROW  &trans  &kp ENTER
+&kp LSHFT  &kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)          &kp LC(B)    &trans         &trans          &trans        &trans           &trans  &kp RIGHT_SHIFT
+                                       &kp LGUI   &kp LEFT_ALT       &kp SPACE    &trans         &trans          &trans
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT       &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
-&trans      &trans    &trans  &trans    &trans          &trans          &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHIFT  &trans    &trans  &trans    &bt BT_CLR_ALL  &bt BT_SEL 0    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                              &kp LGUI  &trans          &kp SPACE       &kp SPACE  &trans     &kp RALT
+&kp LA(F1)  &kp LA(F2)  &kp LA(F3)  &kp LA(F4)  &kp LA(F5)      &kp LA(F6)      &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp N0         &kp BSPC
+&trans      &trans      &trans      &trans      &trans          &trans          &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SEMICOLON  &kp ENTER
+&kp LSHIFT  &trans      &trans      &trans      &bt BT_CLR_ALL  &bt BT_SEL 0    &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp RIGHT_SHIFT
+                                    &kp LGUI    &trans          &kp SPACE       &kp SPACE     &kp N0        &kp RALT
             >;
         };
 
