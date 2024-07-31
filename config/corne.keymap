@@ -71,7 +71,7 @@
             bindings = <
 &kp LA(F1)  &kp LA(F2)  &kp LA(F3)  &kp LA(F4)  &kp LA(F5)      &kp LA(F6)      &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp N0         &kp BSPC
 &trans      &trans      &trans      &trans      &trans          &trans          &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SEMICOLON  &kp ENTER
-&kp LSHIFT  &trans      &trans      &trans      &bt BT_CLR_ALL  &bt BT_SEL 0    &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp RIGHT_SHIFT
+&kp LSHIFT  &trans      &trans      &trans      &bt BT_CLR  &bt BT_SEL 1    &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp RIGHT_SHIFT
                                     &kp LGUI    &trans          &kp SPACE       &kp SPACE     &kp N0        &sk K_CALC
             >;
         };
@@ -79,7 +79,7 @@
         layer_3 {
             bindings = <
 &trans  &trans  &sk K_PREV    &sk C_PLAY  &sk K_NEXT     &trans    &msc SCROLL_UP  &msc SCROLL_LEFT  &mmv MOVE_UP  &msc SCROLL_RIGHT  &trans  &trans
-&trans  &trans  &mkp RCLK     &mkp LCLK   &kp LS(LG(S))  &trans    &msc SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans     &mkp RCLK   &mkp LCLK  &kp LS(LG(S))    &msc SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &trans  &sk C_VOL_DN  &sk K_MUTE  &sk C_VOL_UP   &trans    &trans  &trans  &trans  &trans  &trans  &trans
                               &trans      &trans         &trans    &trans  &trans  &trans
             >;
